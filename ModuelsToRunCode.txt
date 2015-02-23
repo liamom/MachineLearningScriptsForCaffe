@@ -1,0 +1,3 @@
+sudo apt-get install python-numpy
+sudo apt-get install python-glob
+sudo apt-get install python-opencv
