@@ -6,7 +6,7 @@ import sys
 
 mystr = ""
 
-for filename in glob.glob("train/Seq01/masks/*.png"):#specify your own path
+for filename in glob.glob("../../trainingData/train/Seq01/masks/*.png"):#specify your own path
     img = cv2.imread(filename,cv2.IMREAD_GRAYSCALE)
     mystr = ""
     
